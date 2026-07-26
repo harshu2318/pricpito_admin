@@ -7,6 +7,5 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
-  server:{port:5174},
-  base: '/admin/' 
+  server:{port:5174}
 })
